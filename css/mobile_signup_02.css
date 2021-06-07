@@ -1,0 +1,141 @@
+@charset "utf-8"; 
+
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {text-decoration: none; color: #333; display: block;}
+
+@font-face {
+    font-family: 'KBIZHanmaumMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumMyungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+fieldset {
+    border: 0;
+}
+#form {
+    width: 375px;
+    background-color: #292929;
+    margin: 50px auto;
+    padding: 40px 39px;
+    box-sizing: border-box;
+}
+/* #form label {
+    position: absolute;
+    left: -999999px;
+} */
+#form legend {
+    color: #C6700A;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: 'KBIZHanmaumMyungjo';
+    font-weight: bold;
+}
+#form h2 {
+    text-align: center;
+    color: #C6700A;
+    font-size: 30px;
+    font-family: 'KBIZHanmaumMyungjo';
+    margin-bottom: 30px;
+}
+.account input[type="text"], input[type="password"] {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-family: 'KBIZHanmaumMyungjo';
+    font-size: 16px;
+}
+.fullname input[type="text"] {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-family: 'KBIZHanmaumMyungjo';
+    font-size: 16px;
+}
+.birth input[type="text"], select {
+    width: 96px;
+    height: 50px;
+    padding: 0 5px;
+    /* margin: 0 2px; */
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: 'KBIZHanmaumMyungjo';
+    font-size: 16px;
+}
+.radio input[type="radio"] {
+    display: none;
+}
+.radio input[type="radio"] + label {
+    display: inline-block;
+    width: 146px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'KBIZHanmaumMyungjo';
+    margin-bottom: 10px;
+}
+.radio input[type="radio"]:checked + label {
+    background-color: #C6700A;
+    border: 0;
+    color: #fff;
+}
+.email input[type="text"] {
+    width: 300px;
+    height: 50px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-family: 'KBIZHanmaumMyungjo';
+    font-size: 16px;
+}
+.cell select {
+    width: 80px;
+    font-size: 16px;
+    font-family: 'KBIZHanmaumMyungjo';
+}
+.cell .cell_01 > input[type="text"] {
+    width: 214px;
+    height: 50px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-family: 'KBIZHanmaumMyungjo';
+    font-size: 16px;
+}
+.cell .cell_02 > input[type="text"] {
+    width: 180px;
+    height: 50px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-family: 'KBIZHanmaumMyungjo';
+    font-size: 16px;
+}
+.cell .cell_02 input[type="button"] {
+    width: 114px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #C6700A;
+    color: #fff;
+    border: 0;
+    font-family: 'KBIZHanmaumMyungjo';
+    font-size: 16px;
+}
+.button input[type="submit"]{
+    width: 300px;
+    height: 50px;
+    border:0;
+    background-color: #C6700A;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: 'KBIZHanmaumMyungjo';
+}
