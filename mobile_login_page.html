@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모바일로그인페이지_02</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        li {list-style: none;}
+        a {text-decoration: none; color: #333; display: block;}
+
+        @font-face {
+    font-family: 'KBIZHanmaumMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumMyungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+        legend {
+            position: absolute;
+            left: -999999px;
+        }
+        fieldset {
+            border: 0;
+            text-align: center;
+        }
+        .mobile_login {
+            width: 375px;
+            background-color: bisque;
+            margin: 0 auto;
+            margin-top: 90px;
+            background: url('img/웹_02클리핑마스크.jpg') center center / cover no-repeat;
+            height: 812px;
+        }
+        .mobile_login h2 {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 50px;
+            padding-top: 183px;
+            color: #C6700A;
+            font-family: 'KBIZHanmaumMyungjo';
+        }
+        .mobile_login label {
+            position: absolute;
+            left: -999999px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 300px;
+            height: 60px;
+            border: 1px solid #707070;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            padding: 0 20px;
+            font-size: 16px;
+            font-family: 'KBIZHanmaumMyungjo';
+        }
+        input[type="text"], input[type="password"]:focus {
+            border: 1px solid transparent;
+            outline: 1px solid #C6700A;
+        }
+        input[type="submit"] {
+            width: 300px;
+            height: 60px;
+            background-color: #ccc;
+            border: 1px solid #707070;
+            font-size: 18px;
+            box-sizing: border-box;
+            font-family: 'KBIZHanmaumMyungjo';
+            font-weight: bold;
+        }
+        button {
+            width: 145px;
+            height: 60px;
+            border: 1px solid #707070;
+            box-sizing: border-box;
+            background-color: #fff;
+            margin: 20px 2px;
+            font-family: 'KBIZHanmaumMyungjo';
+        }
+        .mobile_login p a {
+            color: #fff;
+            font-size: 14px;
+            font-family: 'KBIZHanmaumMyungjo';
+        }
+    </style>
+</head>
+<body>
+    <div class="mobile_login">
+        <form action="" method="POST">
+            <h2>Login</h2>
+            <fieldset>
+                <legend>로그인</legend>
+                <div>
+                    <label for="un">아이디</label>
+                    <input type="text" id="un" placeholder="Username" required>
+                </div>
+
+                <div>
+                    <label for="pass">비밀번호</label>
+                    <input type="password" id="pass" placeholder="Password" required>
+                </div>
+
+                <div class="login_btn">
+                    <input type="submit" value="Sign in">
+                </div>
+                <div class="button">
+                    <button>
+                    <a href="#">NAVER </a>  
+                    </button>
+                    <button>
+                        <a href="#">KAKAO</a>
+                    </button>
+                </div>
+                <p>
+                    <a href="#">Forgot your Username or Password? | Sign up</a>
+                </p>
+            </fieldset>
+        </form>
+    </div><!-- .mobile_login end -->
+</body>
+</html>

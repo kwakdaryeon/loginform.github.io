@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모바일회원가입</title>
+    <link href="css/02.css" rel="stylesheet">
+</head>
+<body>
+    <div id="form">
+        <form action="" method="POST">
+            <h2>Sign Up</h2>
+            <fieldset>
+                <div class="account">
+                    <legend>Account</legend>
+                    <div>
+                        <label for="id"></label>
+                        <input type="text" id="id" placeholder="ID" required autofocus>
+                    </div>
+                    <div>
+                        <label for="pw01"></label>
+                        <input type="password" id="pw" placeholder="Password">
+                    </div>
+                    <div>
+                        <label for="pw02"></label>
+                        <input type="password" id="pw02" placeholder="Password Confirm">
+                    </div>
+                </div><!-- .account end -->
+
+                <div class="fullname">
+                    <legend>Full Name</legend>
+                    <div>
+                        <label for="name"></label>
+                        <input type="text" id="name" placeholder="Name" required>
+                    </div>
+                </div><!-- .fullname -->
+                
+                <div class="birth">
+                    <legend>Date of Birth</legend>
+                    <div>
+                        <label for="yyyy"></label>
+                        <input type="text" id="yyyy" placeholder="yyyy">
+                        <select>
+                            <option>mm</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                        <label for="dd"></label>
+                        <input type="text" id="dd" placeholder="dd">
+                    </div>
+                </div><!-- .birth end -->
+                
+                <div class="radio">
+                    <legend>Gender</legend>
+                    <div>
+                        <input type="radio" id="ra" name="gender" value="Male">
+                        <label for="ra">Male</label>
+                        <input type="radio" id="ra01"
+                        name="gender" value="Fmale">
+                        <label for="ra01">Fmale</label>
+                    </div>
+                </div><!-- .gender end -->
+
+                <div class="email">
+                    <legend>E-mail</legend>
+                    <div>
+                        <label for="email"></label>
+                        <input type="text" id="email" placeholder="E-mali Adress">
+                    </div>
+                </div><!-- .email end -->
+
+                <div class="cell">
+                    <legend>Cell Phone</legend>
+                    <div class="cell_01">
+                        <select>
+                            <option>+82</option>
+                            <option>+86</option>
+                            <option>+81</option>
+                            <option>+63</option>
+                            <option>+84</option>
+                            <option>+91</option>
+                        </select>
+                        <label for="pn"></label>
+                        <input type="text" id="pn" placeholder="Phone Number">
+                    </div>
+                    <div class="cell_02">
+                        <input type="text" id="cn" placeholder="Certification Numer">
+                        <input type="button" value="Certified">
+                    </div>
+                </div><!-- .cell end -->
+
+                <div class="button">
+                    <input type="submit" value="Sign Up">
+                </div><!-- .button end -->
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
